@@ -1,0 +1,20 @@
+<ng-container>
+  <section class="page-section portfolio" id="apps">
+    <div class="container">
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 p-3 mb-3">{{description}}</h2>
+      <div class="row justify-content-center">
+        <ng-container *ngFor="let skill of skills">
+          <div class="col-md-6 col-lg-4 mb-5 p-5">
+            <!-- way to bind some attr special-->
+            <div class="portfolio-item mx-auto" data-bs-toggle="modal" [attr.data-bs-target]="skill.bsTarget">
+              <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+              </div>
+              <img class="img-fluid" [src]="skill.src"/>
+            </div>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </section>
+</ng-container>

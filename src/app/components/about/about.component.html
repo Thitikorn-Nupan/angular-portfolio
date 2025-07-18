@@ -1,0 +1,56 @@
+<ng-container>
+  <section class="page-section bg-warning text-white mb-0" id="about">
+    <div class="container">
+      <section id="experience" class="experience">
+        <div class="section-heading text-center">
+          <h2 class="page-section-heading text-center text-uppercase" [style]="{'marginBottom':'5px','color':'white'} ">{{ description }}</h2>
+        </div>
+        <div class="container">
+          <div class="experience-content">
+            <div class="main-timeline">
+              <ul>
+                <!--
+                entity
+                timeline : string
+                major : string
+                nameWork : string
+                shortAddressWork : string
+                description : string
+                -->
+                <ng-container *ngFor="let graduation of graduations; let i = index">
+                  <li [style]="{'listStyleType':'none'}">
+                    <div class="single-timeline-box fix">
+                      <div class="row">
+                        <div class="col-md-5">
+                          <div class="experience-time text-right">
+                            <h2>{{ graduation.timeline }}</h2>
+                            <h3 [style]="{'color':'white'}">{{ graduation.major }}</h3>
+                          </div>
+                        </div>
+                        <div class="col-md-offset-1 col-md-5">
+                          <div class="">
+                            <div class="">
+                              <h4 class="">{{ graduation.nameWork }}</h4>
+                              <h5>{{ graduation.shortAddressWork }}</h5>
+                              <p class="">
+                                {{ graduation.description }}
+                                <ng-container *ngIf="i === 0">
+                                  <a class="text-uppercase" href="https://github.com/Thitikorn-Nupan" target="_blank">>>>>> GO TO GITHUB</a>
+                                </ng-container>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ng-container>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+</ng-container>

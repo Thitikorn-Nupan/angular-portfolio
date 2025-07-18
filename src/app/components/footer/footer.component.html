@@ -1,0 +1,28 @@
+<ng-container>
+  <footer class="footer text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-5 mb-lg-0">
+        </div>
+        <div class="col-lg-4 mb-5 mb-lg-0" id="contact">
+          <h4 class="text-uppercase mb-4">{{description}}</h4>
+          <ng-container *ngFor="let aLink of aLinks; let i = index">
+            <a class="btn btn-outline-light btn-social mx-1" [href]="aLink.href" target="_blank">
+              <ng-container *ngIf="i !== aLinks.length - 1">
+                <i class="fab fa-fw {{aLink.faIcon}}"></i>
+              </ng-container>
+              <ng-container *ngIf="i === aLinks.length - 1">
+                <i class="fas fa-file"></i>
+              </ng-container>
+            </a>
+          </ng-container>
+        </div>
+        <div class="col-lg-4">
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="copyright py-4 text-center text-white">
+    <div class="container"><small>TTKNP Software Developer &copy; </small></div>
+  </div>
+</ng-container>
