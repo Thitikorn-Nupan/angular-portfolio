@@ -17,6 +17,13 @@
                   </ng-container>
                   <div class="divider-custom-line"></div>
                 </div>
+                <div>
+                  <ng-container *ngIf="detail.imagesDemo">
+                    <ng-container  *ngFor="let imageDemo of detail.imagesDemo">
+                      <img class="img-fluid p-5" [src]="imageDemo"/>
+                    </ng-container>
+                  </ng-container>
+                </div>
                 <p>
                   <code [style]="{'display':'block'}">
                     <br/>

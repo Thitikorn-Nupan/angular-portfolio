@@ -14,7 +14,8 @@ export class DetailsComponent {
     skills : string,
     experiences : string,
     href : string ,
-    label : string
+    label : string ,
+    imagesDemo? : string[] ,
   } []
 
   constructor() {
@@ -427,6 +428,26 @@ export class DetailsComponent {
         `,
         href:'https://github.com/Thitikorn-Nupan?tab=repositories',
         label : '"http://thitikorn-nupan.com/perfume-shop"',
+        imagesDemo: [
+          '/assets/images/pfs-e1.png',
+          '/assets/images/pfs-e2.png',
+          '/assets/images/pfs-e3.png',
+          '/assets/images/pfs-e4.png',
+          '/assets/images/pfs-e5.png',
+          '/assets/images/pfs-e6.png',
+          '/assets/images/pfs-e7.png',
+          '/assets/images/pfs-e8.png',
+          '/assets/images/pfs-e9.png',
+          '/assets/images/pfs-e10.png',
+          '/assets/images/pfs-e11.png',
+          '/assets/images/pfs-e12.png',
+          '/assets/images/pfs-e13.png',
+          '/assets/images/pfs-e14.png',
+          '/assets/images/pfs-e15.png',
+          '/assets/images/pfs-e16.png',
+          '/assets/images/pfs-e17.png',
+          '/assets/images/pfs-e18.png',
+        ]
       },
       {
         id : 'portfolioModal17',
@@ -450,6 +471,19 @@ export class DetailsComponent {
         `,
         href:'https://github.com/Thitikorn-Nupan?tab=repositories',
         label : '"http://thitikorn-nupan.com/reviews-book"',
+        imagesDemo: [
+          '/assets/images/rw-e1.png',
+          '/assets/images/rw-e2.png',
+          '/assets/images/rw-e2.2.png',
+          '/assets/images/rw-e3.png',
+          '/assets/images/rw-e4.png',
+          '/assets/images/rw-e5.png',
+          '/assets/images/rw-e6.png',
+          '/assets/images/rw-e7.png',
+          '/assets/images/rw-e8.png',
+          '/assets/images/rw-e9.png',
+          '/assets/images/rw-e10.png',
+        ]
       },
       {
         id : 'portfolioModal18',
@@ -472,6 +506,22 @@ export class DetailsComponent {
         `,
         href:'https://github.com/Thitikorn-Nupan?tab=repositories',
         label : '"http://thitikorn-nupan.com/mentenance-system"',
+        imagesDemo: [
+        '/assets/images/mst-e1.png',
+        '/assets/images/mst-e2.png',
+        '/assets/images/mst-e2.2.png',
+        '/assets/images/mst-e3.png',
+        '/assets/images/mst-e4.png',
+        '/assets/images/mst-e5.png',
+        '/assets/images/mst-e6.png',
+        '/assets/images/mst-e7.png',
+        '/assets/images/mst-e8.png',
+        '/assets/images/mst-e9.png',
+        '/assets/images/mst-e10.png',
+        '/assets/images/mst-e11.png',
+        '/assets/images/mst-e12.png',
+        '/assets/images/mst-e13.png',
+      ]
       }
     ]
   }
