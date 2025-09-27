@@ -522,6 +522,22 @@ export class DetailsComponent {
         '/assets/images/mst-e12.png',
         '/assets/images/mst-e13.png',
       ]
+      },
+      {
+        id : 'portfolioModal19',
+        header :'REST API\'s Free',
+        totalStart : this.getArrayNumber(5),
+        skills : `  [<br/>
+                    "Developer can use all the api's for developing own application", <br/>
+                    "Provider the common http method as POST,GET,DELETE,PUT for application", <br/>
+                    ]
+        `,
+        experiences : `
+                    [<br/>
+                    ]
+        `,
+        href:'assets/pdf/doc-rest-api.pdf',
+        label : 'Document'
       }
     ]
   }

@@ -16,6 +16,7 @@ export class PublicAppsComponent {
       { bsTarget : '#portfolioModal16',  src : 'assets/images/perfume-shop-app-ic.png' },
       { bsTarget : '#portfolioModal17',  src : 'assets/images/review-books-app-ic.png' },
       { bsTarget : '#portfolioModal18',  src : 'assets/images/maintenance-app-ic.png' },
+      { bsTarget : '#portfolioModal19',  src : 'assets/images/rest-app-ic.png' },
       // end row
     ]
   }
