@@ -1,0 +1,15 @@
+<nav class="navbar navbar-expand-lg navbar-light py-3 bg-dark bg-opacity-75 ">
+  <div class="container px-5">
+    <a class="navbar-brand text-gradient" [href]="aLinks[0].href"><span class="fw-bolder text-primary">{{aLinks[0].text}}</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+        <ng-container *ngFor="let aLink of aLinks; let index = index">
+          <ng-container *ngIf="index > 0">
+            <li class="nav-item"><a class="nav-link text-gradient text-uppercase" [href]="aLink.href">{{ aLink.text }}</a>
+          </ng-container>
+        </ng-container>
+      </ul>
+    </div>
+  </div>
+</nav>

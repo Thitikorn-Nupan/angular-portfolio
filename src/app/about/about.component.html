@@ -1,0 +1,99 @@
+<!--<ng-container *ngIf="graduations">
+  <section class="page-section bg-warning text-white mb-0" id="about">
+    <div class="container">
+      <section id="experience" class="experience">
+        <div class="section-heading text-center">
+          <h2 class="page-section-heading text-center text-uppercase" [style]="{'marginBottom':'5px','color':'white'} ">{{ description }}</h2>
+        </div>
+        <div class="container">
+          <div class="experience-content">
+            <div class="main-timeline">
+              <ul>
+                &lt;!&ndash;
+                entity
+                timeline : string
+                major : string
+                nameWork : string
+                shortAddressWork : string
+                description : string
+                &ndash;&gt;
+                <ng-container *ngFor="let graduation of graduations; let i = index">
+                  <li [style]="{'listStyleType':'none'}">
+                    <div class="single-timeline-box fix">
+                      <div class="row">
+                        <div class="col-md-5">
+                          <div class="experience-time text-right">
+                            <h2>{{ graduation.timeline }}</h2>
+                            <h3 [style]="{'color':'white'}">{{ graduation.major }}</h3>
+                          </div>
+                        </div>
+                        <div class="col-md-offset-1 col-md-5">
+                          <div class="">
+                            <div class="">
+                              <h4 class="">{{ graduation.nameWork }}</h4>
+                              <h5>{{ graduation.shortAddressWork }}</h5>
+                              <p class="">
+                                {{ graduation.description }}
+                                <ng-container *ngIf="i === 0">
+                                  <a class="fs-5 fw-bold" style="text-decoration: none; color: rgb(87,92,128)" href="https://github.com/thitikorn-nupan" target="_blank">(GO TO GITHUB)</a>
+                                </ng-container>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ng-container>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+</ng-container>-->
+<div class="bg-light" id="about">
+  <div class="container px-5">
+    <div class="text-center mb-5 mt-5">
+      <h1 class="display-5 fw-bolder mb-0" style="margin-top: 35px;display: inline-flex;"><span class="text-gradient d-inline">{{description}}</span></h1>
+    </div>
+    <div class="row gx-5 justify-content-center">
+      <div class="col-lg-11 col-xl-9 col-xxl-8">
+        <!-- Education Section-->
+        <section>
+          <!--<h2 class="text-secondary fw-bolder mb-4">{{ description }}</h2>-->
+          <!-- Education Card 1-->
+          <ng-container *ngFor="let graduation of graduations; let i = index">
+            <div class="card shadow border-0 rounded-4 mb-5">
+              <div class="card-body p-5">
+                <div class="row align-items-center gx-5">
+                  <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                    <div class="bg-light p-4 rounded-4" >
+                      <div class="text-secondary fw-bolder mb-2">{{ graduation.timeline }}</div>
+                      <div class="mb-2">
+                        <div class="small fw-bolder">{{ graduation.major }}</div>
+                        <div class="small text-muted">{{ graduation.shortAddressWork }}</div>
+                      </div>
+                      <div class="fst-italic">
+                        <div class="small text-muted">{{ graduation.nameWork }}</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-8" style="font-size: 20px"><div>{{ graduation.description }}
+                    <ng-container *ngIf="i === 0">
+                      <a class="fs-5 fw-bold" style="text-decoration: none; color: rgb(87,92,128)" href="https://github.com/thitikorn-nupan" target="_blank">(GO TO GITHUB)</a>
+                    </ng-container></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ng-container>
+        </section>
+        <!-- Divider-->
+
+      </div>
+    </div>
+  </div>
+</div>

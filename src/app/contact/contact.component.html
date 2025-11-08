@@ -1,0 +1,33 @@
+<section id="contact" class="bg-dark bg-opacity-75 py-5 ">
+  <div class="container px-5 ">
+    <div class="row gx-5 justify-content-center">
+      <div class="col-xxl-8">
+        <div class="text-center my-5">
+          <div class="text-center mb-5">
+            <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">{{description}}</span></h1>
+          </div>
+          <div class="container mt-4">
+            <div class="row">
+              <div class="col-lg-2 mb-5 mb-lg-0">
+              </div>
+              <div class="col-lg-8 mb-5 mb-lg-0">
+                <ng-container *ngFor="let aLink of aLinks; let i = index">
+                  <a class="btn btn-outline-warning btn-social mx-1" style="padding: 35px" [href]="aLink.href" target="_blank">
+                    <ng-container *ngIf="i !== aLinks.length - 1">
+                      <i class="fab fa-fw {{aLink.faIcon}} fa-2xl"></i>
+                    </ng-container>
+                    <ng-container *ngIf="i === aLinks.length - 1">
+                      <i class="fas fa-file fa-2xl"></i>
+                    </ng-container>
+                  </a>
+                </ng-container>
+              </div>
+              <div class="col-lg-2">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

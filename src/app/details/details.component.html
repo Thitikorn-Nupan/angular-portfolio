@@ -1,0 +1,53 @@
+<ng-container *ngFor="let detail of details; let i = index">
+  <div class="portfolio-modal modal fade" [id]="detail.id" tabIndex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center pb-5">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!--<h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">{{detail.header}}</h2>-->
+                <h1 class="display-5 fw-bolder mb-0 text-center"><span class="text-gradient d-inline">{{detail.header}}</span></h1>
+                <div class="divider-custom">
+                  <div class="divider-custom-line" ></div>
+                  <ng-container *ngFor="let start of detail.totalStart; ">
+                    <div class="divider-custom-icon" style="color: #a87c04"><i class="fas fa-star"></i></div>
+                  </ng-container>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <div>
+                  <ng-container *ngIf="detail.imagesDemo">
+                    <ng-container  *ngFor="let imageDemo of detail.imagesDemo">
+                      <img class="img-fluid p-5" [src]="imageDemo"/>
+                    </ng-container>
+                  </ng-container>
+                </div>
+                <p>
+                  <code [style]="{'display':'block'}">
+                    <br/>
+                    <code [style]="{'backgroundColor':'#f1f1f1','padding':'2px'}">"Skills"</code> :
+                    <div [innerHTML]="detail.skills"></div>
+                    ,
+                    <br/>
+                    <ng-container *ngIf="i < 15">
+                      <code  [style]="{'backgroundColor':'#f1f1f1','padding':'2px'}">"Experiences"</code> :
+                      <div [innerHTML]="detail.experiences"></div> ,
+                      <br/>
+                    </ng-container>
+                    <code [style]="{'backgroundColor':'#f1f1f1','padding':'2px'}">"Sources"</code> :
+                    <a [style]="{'backgroundColor':'#f1f1f1','padding':'2px','textDecoration': 'none' ,'color':'#2c3e50'}"  [href]="detail.href" target="_blank">{{detail.label}}</a>
+                    <br/>
+                  </code>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</ng-container>
