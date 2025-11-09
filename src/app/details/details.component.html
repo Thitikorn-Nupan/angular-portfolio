@@ -21,7 +21,12 @@
                 <div>
                   <ng-container *ngIf="detail.imagesDemo">
                     <ng-container  *ngFor="let imageDemo of detail.imagesDemo">
-                      <img class="img-fluid p-5" [src]="imageDemo"/>
+                      <img class="img-fluid p-5" style="
+                          width: 550px; /* Optional: Set a fixed width */
+                          border-radius: 15px; /* Adds a uniform 15px radius to all corners */
+                          border: 5px solid #ccc; /* Optional: Adds a border around the image */
+                          margin: 5px;
+                        " [src]="imageDemo"/>
                     </ng-container>
                   </ng-container>
                 </div>

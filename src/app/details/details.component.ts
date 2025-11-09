@@ -407,18 +407,26 @@ export class DetailsComponent {
         id : 'portfolioModal16',
         header :'Perfumes Shop',
         totalStart : this.getArrayNumber(5),
+        // Spring & Angular
         skills : `  [<br/>
-                    "Application has security" , <br/>
-                    "Time user login has scope" , <br/>
-                    "User has rule" , <br/>
-                    "Each rule has scope for working" , <br/>
-                    "Admin & User & Whoever can buy many perfumes" , <br/>
-                    "If user has rule. user can check all history purchases" , <br/>
-                    "Admin can manage product as insert , update , delete" , <br/>
-                    "Application calculate all sellout history" , <br/>
-                    "Each bill has status for validate bill" , <br/>
-                    "Application can pay by QR-Code & Credit Card" , <br/>
-                    "Admin can check all bills & perfumes only sellout"<br/>
+                    "Spring security" , <br/>
+                    "JWT Authentication" , <br/>
+                    "Rules & Authorities" , <br/>
+                    "Time Expiry JWT" , <br/>
+                    "JDBC Template & JPA Hibernate" , <br/>
+                    "Handler Exceptions" , <br/>
+                    "MySQL Database" , <br/>
+                    "Relations Tables" , <br/>
+                    "APIs Strip For Payments" , <br/>
+                    "Transfer Files" , <br/>
+                    "HTTP Protocol" , <br/>
+                    "Angular Route guards" , <br/>
+                    "Reactive Forms" ,<br/>
+                    "Routing" ,<br/>
+                    "Observable" ,<br/>
+                    "Bootstrap 5" ,<br/>
+                    "Files" ,<br/>
+                    "Parents & Child Components" <br/>
                     ]
         `,
         experiences : `
@@ -429,24 +437,18 @@ export class DetailsComponent {
         href:'http://www.thitikorn-nupan.com/app/ecommerce/',
         label : '"www.thitikorn-nupan.com/app/ecommerce/"',
         imagesDemo: [
-          'assets/images/pfs-e1.png',
-          'assets/images/pfs-e2.png',
-          'assets/images/pfs-e3.png',
-          'assets/images/pfs-e4.png',
-          'assets/images/pfs-e5.png',
-          'assets/images/pfs-e6.png',
-          'assets/images/pfs-e7.png',
-          'assets/images/pfs-e8.png',
-          'assets/images/pfs-e9.png',
-          'assets/images/pfs-e10.png',
-          'assets/images/pfs-e11.png',
-          'assets/images/pfs-e12.png',
-          'assets/images/pfs-e13.png',
-          'assets/images/pfs-e14.png',
-          'assets/images/pfs-e15.png',
-          'assets/images/pfs-e16.png',
-          'assets/images/pfs-e17.png',
-          'assets/images/pfs-e18.png',
+          'assets/images/pfs-e1.jpeg',
+          'assets/images/pfs-e2.jpeg',
+          'assets/images/pfs-e3.jpeg',
+          'assets/images/pfs-e4.jpeg',
+          'assets/images/pfs-e5.jpeg',
+          'assets/images/pfs-e6.jpeg',
+          'assets/images/pfs-e7.jpeg',
+          'assets/images/pfs-e8.jpeg',
+          'assets/images/pfs-e9.jpeg',
+          'assets/images/pfs-e10.jpeg',
+          'assets/images/pfs-e11.jpeg',
+          'assets/images/pfs-e12.jpeg',
         ]
       },
       {
@@ -454,14 +456,22 @@ export class DetailsComponent {
         header :'Reviews Book',
         totalStart : this.getArrayNumber(5),
         skills : `  [<br/>
-                    "Application has security" , <br/>
-                    "Time user login has scope" , <br/>
-                    "User has rule" , <br/>
-                    "Each rule has scope for working" , <br/>
-                    "Admin & User can review many books" , <br/>
-                    "If user has rule. user can manage review history as update , delete" , <br/>
-                    "Admin can manage all review history as update , delete" , <br/>
-                    "Admin can manage book as insert , update , delete" <br/>
+                    "Spring security" , <br/>
+                    "JWT Authentication" , <br/>
+                    "Rules & Authorities" , <br/>
+                    "Time Expiry JWT" , <br/>
+                    "JPA Hibernate" , <br/>
+                    "Handler Exceptions" , <br/>
+                    "MySQL Database" , <br/>
+                    "Relations Tables" , <br/>
+                    "Transfer Files" , <br/>
+                    "HTTP Protocol" , <br/>
+                    "Template-driven Forms" ,<br/>
+                    "Routing" ,<br/>
+                    "Observable" ,<br/>
+                    "Tailwind Flowbite" ,<br/>
+                    "Files" ,<br/>
+                    "Parents & Child Components" <br/>
                     ]
         `,
         experiences : `
@@ -472,17 +482,15 @@ export class DetailsComponent {
         href:'http://www.thitikorn-nupan.com/app/reviews-book/',
         label : '"www.thitikorn-nupan.com/app/reviews-book/"',
         imagesDemo: [
-          'assets/images/rw-e1.png',
-          'assets/images/rw-e2.png',
-          'assets/images/rw-e2.2.png',
-          'assets/images/rw-e3.png',
-          'assets/images/rw-e4.png',
-          'assets/images/rw-e5.png',
-          'assets/images/rw-e6.png',
-          'assets/images/rw-e7.png',
-          'assets/images/rw-e8.png',
-          'assets/images/rw-e9.png',
-          'assets/images/rw-e10.png',
+          'assets/images/rw-e1.jpeg',
+          'assets/images/rw-e2.jpeg',
+          'assets/images/rw-e3.jpeg',
+          'assets/images/rw-e4.jpeg',
+          'assets/images/rw-e5.jpeg',
+          'assets/images/rw-e6.jpeg',
+          'assets/images/rw-e7.jpeg',
+          'assets/images/rw-e8.jpeg',
+          'assets/images/rw-e9.jpeg',
         ]
       },
       {
@@ -490,14 +498,20 @@ export class DetailsComponent {
         header :'Maintenance System',
         totalStart : this.getArrayNumber(5),
         skills : `  [<br/>
-                    "Application has security" , <br/>
-                    "Time user login has scope" , <br/>
-                    "User has rule" , <br/>
-                    "If user has rule as user , user can check companies and members are active" , <br/>
-                    "Admin can manage all maintenance bill (invoice detail each bill) as insert , update , delete", <br/>
-                    "Admin can manage all member as insert , update , delete", <br/>
-                    "Admin can manage all service company as insert , update , delete" , <br/>
-                    "All member can manage password & username on own" , <br/>
+                    "Spring security" , <br/>
+                    "JWT Authentication" , <br/>
+                    "Rules & Authorities" , <br/>
+                    "Time Expiry JWT" , <br/>
+                    "JPA Hibernate" , <br/>
+                    "Handler Exceptions" , <br/>
+                    "MySQL Database" , <br/>
+                    "Relations Tables" , <br/>
+                    "HTTP Protocol" , <br/>
+                    "Template-driven Forms" ,<br/>
+                    "Routing" ,<br/>
+                    "Observable" ,<br/>
+                    "Bootstrap 5" ,<br/>
+                    "Parents & Child Components" <br/>
                     ]
         `,
         experiences : `
@@ -508,19 +522,23 @@ export class DetailsComponent {
         href:'http://www.thitikorn-nupan.com/app/mentenance-system/',
         label : '"www.thitikorn-nupan.com/app/mentenance-system"',
         imagesDemo: [
-        'assets/images/mst-e1.png',
-        'assets/images/mst-e2.png',
-        'assets/images/mst-e3.png',
-        'assets/images/mst-e4.png',
-        'assets/images/mst-e5.png',
-        'assets/images/mst-e6.png',
-        'assets/images/mst-e7.png',
-        'assets/images/mst-e8.png',
-        'assets/images/mst-e9.png',
-        'assets/images/mst-e10.png',
-        'assets/images/mst-e11.png',
-        'assets/images/mst-e12.png',
-        'assets/images/mst-e13.png',
+        'assets/images/mst-e1.jpeg',
+        'assets/images/mst-e2.jpeg',
+        'assets/images/mst-e3.jpeg',
+        'assets/images/mst-e4.jpeg',
+        'assets/images/mst-e5.jpeg',
+        'assets/images/mst-e6.jpeg',
+        'assets/images/mst-e7.jpeg',
+        'assets/images/mst-e8.jpeg',
+        'assets/images/mst-e9.jpeg',
+        'assets/images/mst-e10.jpeg',
+        'assets/images/mst-e11.jpeg',
+        'assets/images/mst-e12.jpeg',
+        'assets/images/mst-e13.jpeg',
+        'assets/images/mst-e14.jpeg',
+        'assets/images/mst-e15.jpeg',
+        'assets/images/mst-e16.jpeg',
+        'assets/images/mst-e17.jpeg',
       ]
       },
       {
@@ -528,8 +546,11 @@ export class DetailsComponent {
         header :'REST API\'s Free',
         totalStart : this.getArrayNumber(5),
         skills : `  [<br/>
-                    "Developer can use all the api's for developing own application", <br/>
-                    "Provider the common http method as POST,GET,DELETE,PUT for application", <br/>
+                    "JDBC Template" , <br/>
+                    "Handler Exceptions" , <br/>
+                    "MySQL Database" , <br/>
+                    "Relations Tables" , <br/>
+                    "HTTP Protocol" <br/>
                     ]
         `,
         experiences : `
