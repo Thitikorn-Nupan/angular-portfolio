@@ -16,6 +16,10 @@ export class DetailsComponent {
     href : string ,
     label : string ,
     imagesDemo? : string[] ,
+    extraHref? : {
+      href : string ,
+      label : string ,
+    }
   } []
 
   constructor() {
@@ -550,6 +554,8 @@ export class DetailsComponent {
                     "Handler Exceptions" , <br/>
                     "MySQL Database" , <br/>
                     "Relations Tables" , <br/>
+                    "Microservices" , <br/>
+                    "Parent & Child Modules" , <br/>
                     "HTTP Protocol" <br/>
                     ]
         `,
@@ -558,7 +564,11 @@ export class DetailsComponent {
                     ]
         `,
         href:'assets/pdf/doc-rest-api.pdf',
-        label : 'Document'
+        label : '"Document (PDF)"',
+        extraHref : {
+          href:'http://www.thitikorn-nupan.com/app/example/',
+          label : '"www.thitikorn-nupan.com/app/example"',
+        }
       }
     ]
   }

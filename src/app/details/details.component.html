@@ -43,7 +43,19 @@
                       <br/>
                     </ng-container>
                     <code [style]="{'backgroundColor':'#f1f1f1','padding':'2px'}">"Sources"</code> :
-                    <a [style]="{'backgroundColor':'#f1f1f1','padding':'2px','textDecoration': 'none' ,'color':'#2c3e50'}"  [href]="detail.href" target="_blank">{{detail.label}}</a>
+                    <ng-container *ngIf="!detail.extraHref">
+                      <a [style]="{'backgroundColor':'#f1f1f1','padding':'2px','textDecoration': 'none' ,'color':'#2c3e50'}"  [href]="detail.href" target="_blank">{{detail.label}}</a>
+                    </ng-container>
+                    <ng-container *ngIf="detail.extraHref"><br/>
+                      [
+                      <br/>
+                      <a [style]="{'backgroundColor':'#f1f1f1','padding':'2px','textDecoration': 'none' ,'color':'#2c3e50'}"  [href]="detail.href" target="_blank">{{detail.label}}</a>
+                      ,
+                      <br/>
+                      <a [style]="{'backgroundColor':'#f1f1f1','padding':'2px','textDecoration': 'none' ,'color':'#2c3e50'}"  [href]="detail.extraHref.href" target="_blank">{{detail.extraHref.label}}</a>
+                      <br/>
+                      ]
+                    </ng-container>
                     <br/>
                   </code>
                 </p>

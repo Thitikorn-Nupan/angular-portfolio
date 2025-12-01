@@ -11,8 +11,8 @@ export class MenubarComponent {
 
   constructor() {
     this.aLinks = [
-      {text:'TTKNP SOFTWARE DEVELOPER',href:'#top'},
-      {text:'What am i good at ?',href:'#skills'},
+      {text:'THITIKORN SDE.',href:'#top'},
+      {text:'Skill/Detail',href:'#skills'},
       {text:'About graduation',href:'#about'},
       {text:'Public Applications',href:'#apps'},
       {text:'Contact',href:'#contact'},
