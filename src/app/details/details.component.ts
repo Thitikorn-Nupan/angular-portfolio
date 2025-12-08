@@ -564,11 +564,47 @@ export class DetailsComponent {
                     ]
         `,
         href:'assets/pdf/doc-rest-api.pdf',
-        label : '"Document (PDF)"',
+        label : '"Document (PDF)Document (PDF)"',
         extraHref : {
           href:'http://www.thitikorn-nupan.com/app/example/',
           label : '"www.thitikorn-nupan.com/app/example"',
         }
+      },
+      {
+        id : 'portfolioModal20',
+        header :'GitLab',
+        totalStart : this.getArrayNumber(4),
+        skills : `  [<br/>
+                    "Git CLI" , <br/>
+                    "Repositories (Cloning , Pushing , Pulling , ...)" , <br/>
+                    "Branching Basics" , <br/>
+                    "Merge Strategies (Fast Forward (FF) , Non-Fast Forward , Cherry Picking , ...)" , <br/>
+                    "Working in a Team" , <br/>
+                     ]
+        `,
+        experiences : `
+                    [<br/>
+                    "Apply to many frameworks (Spring boot , Node.js , Angular , ...)" , <br/>
+                    "Remote application to Gitlab server" , <br/>
+                    "Manage application on Gitlab server" <br/>
+                    ]
+        `,
+        href:'https://gitlab.com/thitikorn-nupan',
+        label : '"https://gitlab.com/thitikorn-nupan"',
+      },
+      {
+        id : 'portfolioModal21',
+        header :'Jenkins',
+        totalStart : this.getArrayNumber(3),
+        skills : `  [<br/>
+                     ]
+        `,
+        experiences : `
+                    [<br/>
+                    ]
+        `,
+        href:'https://github.com/Thitikorn-Nupan?tab=repositories&q=jenkins',
+        label : '"https://github.com/thitikorn-nupan"',
       }
     ]
   }

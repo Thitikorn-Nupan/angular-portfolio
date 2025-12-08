@@ -34,7 +34,8 @@ export class SkillsComponent {
       { bsTarget : '#portfolioModal13',  src : 'assets/images/git-ic.png' }, // clear
       { bsTarget : '#portfolioModal14',  src : 'assets/images/dk-ic.png' }, // clear
       { bsTarget : '#portfolioModal15',  src : 'assets/images/ln-ic.png' }, // clear
-
+      { bsTarget : '#portfolioModal20',  src : 'assets/images/gitlab-ic.png' }, // clear
+      { bsTarget : '#portfolioModal21',  src : 'assets/images/jenkins-ic.png' }, // clear
     ]
   }
 }

@@ -37,7 +37,7 @@
                     <div [innerHTML]="detail.skills"></div>
                     ,
                     <br/>
-                    <ng-container *ngIf="i < 15">
+                    <ng-container *ngIf="(i != 15 && i != 16 && i != 17 && i != 18)">
                       <code  [style]="{'backgroundColor':'#f1f1f1','padding':'2px'}">"Experiences"</code> :
                       <div [innerHTML]="detail.experiences"></div> ,
                       <br/>
