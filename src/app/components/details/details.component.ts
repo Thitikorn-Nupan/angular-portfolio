@@ -426,8 +426,8 @@ export class DetailsComponent {
 
                     ]
         `,
-        href:'https://github.com/Thitikorn-Nupan?tab=repositories',
-        label : '"http://thitikorn-nupan.com/perfume-shop"',
+        href:'http://www.thitikorn-nupan.com/app/ecommerce/',
+        label : '"www.thitikorn-nupan.com/app/ecommerce/"',
         imagesDemo: [
           'assets/images/pfs-e1.png',
           'assets/images/pfs-e2.png',
@@ -469,8 +469,8 @@ export class DetailsComponent {
 
                     ]
         `,
-        href:'https://github.com/Thitikorn-Nupan?tab=repositories',
-        label : '"http://thitikorn-nupan.com/reviews-book"',
+        href:'http://www.thitikorn-nupan.com/app/reviews-book/',
+        label : '"www.thitikorn-nupan.com/app/reviews-book/"',
         imagesDemo: [
           'assets/images/rw-e1.png',
           'assets/images/rw-e2.png',
@@ -493,10 +493,11 @@ export class DetailsComponent {
                     "Application has security" , <br/>
                     "Time user login has scope" , <br/>
                     "User has rule" , <br/>
-                    "Each rule has scope for working", <br/>
-                    "Admin can manage all maintenance bill as insert , update , delete", <br/>
+                    "If user has rule as user , user can check companies and members are active" , <br/>
+                    "Admin can manage all maintenance bill (invoice detail each bill) as insert , update , delete", <br/>
                     "Admin can manage all member as insert , update , delete", <br/>
-                    "Admin can manage all service company as insert , update , delete" <br/>
+                    "Admin can manage all service company as insert , update , delete" , <br/>
+                    "All member can manage password & username on own" , <br/>
                     ]
         `,
         experiences : `
@@ -504,12 +505,11 @@ export class DetailsComponent {
 
                     ]
         `,
-        href:'https://github.com/Thitikorn-Nupan?tab=repositories',
-        label : '"http://thitikorn-nupan.com/mentenance-system"',
+        href:'http://www.thitikorn-nupan.com/app/mentenance-system/',
+        label : '"www.thitikorn-nupan.com/app/mentenance-system"',
         imagesDemo: [
         'assets/images/mst-e1.png',
         'assets/images/mst-e2.png',
-        'assets/images/mst-e2.2.png',
         'assets/images/mst-e3.png',
         'assets/images/mst-e4.png',
         'assets/images/mst-e5.png',

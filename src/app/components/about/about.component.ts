@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './about.component.css'
 })
 export class AboutComponent {
-  protected readonly description : string = 'My journey';
+  protected readonly description : string = 'The journey';
   protected graduations : {
     timeline : string,
     major : string,

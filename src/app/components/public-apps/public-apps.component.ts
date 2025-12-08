@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './public-apps.component.css'
 })
 export class PublicAppsComponent {
-  protected readonly description : string = 'Some apps deployed to server (See click  !)';
+  protected readonly description : string = 'Apps deployed (See the detail click)';
   protected readonly skills : {
     bsTarget : string,
     src : string

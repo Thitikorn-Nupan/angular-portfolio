@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './skills.component.css'
 })
 export class SkillsComponent {
-  protected readonly description : string = 'See the detail just click !';
+  protected readonly description : string = 'Skills (See the detail click)';
   protected readonly skills : {
     bsTarget : string,
     src : string
