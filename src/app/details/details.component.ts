@@ -597,10 +597,17 @@ export class DetailsComponent {
         header :'Jenkins',
         totalStart : this.getArrayNumber(3),
         skills : `  [<br/>
-                     ]
+                    "CI/CD Principles (Syntax , Components , ...)" , <br/>
+                    "Jenkins Architecture" , <br/>
+                    "Installation and Configuration" , <br/>
+                    "Version Control Systems (Git and GitHub , GitLab)" , <br/>
+                    "Security and Credentials Management"  <br/>
+                    ]
         `,
         experiences : `
                     [<br/>
+                    "Apply with Docker" , <br/>
+                    "Auto Deploy Applications"  <br/>
                     ]
         `,
         href:'https://github.com/Thitikorn-Nupan?tab=repositories&q=jenkins',
