@@ -19,7 +19,8 @@ export class DetailsComponent {
     extraHref? : {
       href : string ,
       label : string ,
-    }
+    },
+    disableResource? : boolean
   } []
 
   constructor() {
@@ -365,7 +366,7 @@ export class DetailsComponent {
       {
         id : 'portfolioModal14',
         header :'Docker',
-        totalStart : this.getArrayNumber(3),
+        totalStart : this.getArrayNumber(4),
         skills : `  [<br/>
                     "Docker Desktop (Window)" , <br/>
                     "Structure of a Dockerfile" , <br/>
@@ -568,7 +569,7 @@ export class DetailsComponent {
         extraHref : {
           href:'http://www.thitikorn-nupan.com/app/example/',
           label : '"www.thitikorn-nupan.com/app/example"',
-        }
+        },
       },
       {
         id : 'portfolioModal20',
@@ -612,7 +613,28 @@ export class DetailsComponent {
         `,
         href:'https://github.com/Thitikorn-Nupan?tab=repositories&q=jenkins',
         label : '"https://github.com/thitikorn-nupan"',
+      },
+      {
+        id : 'portfolioModal22',
+        header :'Jira',
+        totalStart : this.getArrayNumber(3),
+        skills : `  [<br/>
+                    "The fundamental unit tracking work (Task, Bug , Story , Epic)" , <br/>
+                    "A collection of issues for a specific goal or team." , <br/>
+                    "Visualizes workflow (Scrum/Kanban) for tasks." , <br/>
+                    "The lifecycle of an issue (To Do, In Progress, Done)" <br/>
+                    ]
+        `,
+        experiences : `
+                    [<br/>
+                    "Used by teams to plan, track, and manage any type of work, especially in Agile development"  <br/>
+                    ]
+        `,
+        href:'',
+        label : '',
+        disableResource:true
       }
+
     ]
   }
 
